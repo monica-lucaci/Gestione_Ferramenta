@@ -1,0 +1,113 @@
+[
+  {
+    "ContainingType": "Gestione_ferramenta.Controllers.ProdottoController",
+    "Method": "ElencoProdotti",
+    "RelativePath": "api/prodotti",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gestione_ferramenta.Controllers.ProdottoController",
+    "Method": "InserisciProdotto",
+    "RelativePath": "api/prodotti",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objProd",
+        "Type": "Gestione_ferramenta.Models.Prodotto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gestione_ferramenta.Controllers.ProdottoController",
+    "Method": "ModificaProdotto",
+    "RelativePath": "api/prodotti",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objProd",
+        "Type": "Gestione_ferramenta.Models.Prodotto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gestione_ferramenta.Controllers.ProdottoController",
+    "Method": "DettaglioProdotto",
+    "RelativePath": "api/prodotti/{valCodice}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "valCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gestione_ferramenta.Controllers.ProdottoController",
+    "Method": "EliminaProdottoPerCodice",
+    "RelativePath": "api/prodotti/codice/{varCodice}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gestione_ferramenta.Controllers.ProdottoController",
+    "Method": "EliminaProdottoPerCodice",
+    "RelativePath": "api/prodotti/codice/{varCodice}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Gestione_ferramenta.Controllers.ProdottoController",
+    "Method": "ModificaQuantitaProd",
+    "RelativePath": "api/prodotti/codice/{varCodice}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "varCodice",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "quantitaModificata",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
